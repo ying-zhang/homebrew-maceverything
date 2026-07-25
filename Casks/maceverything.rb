@@ -1,13 +1,13 @@
 cask "maceverything" do
-  version "0.0.0"
+  version "1.7.25"
 
   on_arm do
-    sha256 "PLACEHOLDER"
+    sha256 "1073214f2450152537f2f9b028d025e5dbaa21cc3e883327b8a948def6a845b5"
     url "https://github.com/ying-zhang/MacEverything/releases/download/v#{version}/MacEverything-arm64.dmg"
   end
 
   on_intel do
-    sha256 "PLACEHOLDER"
+    sha256 "f1d3a9c39ac13902b4a4db299c417d4dabac53c60d6d960db20b140ed1d2f805"
     url "https://github.com/ying-zhang/MacEverything/releases/download/v#{version}/MacEverything-x86_64.dmg"
   end
 

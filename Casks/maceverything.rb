@@ -1,19 +1,16 @@
 cask "maceverything" do
-  version "1.7.25"
+  arch arm: "arm64", intel: "x86_64"
 
-  on_arm do
-    sha256 "08347a5103dfe37b0712f00b741ccde532ec30c7326470be2211cbacd07b249b"
-    url "https://github.com/ying-zhang/MacEverything/releases/download/v#{version}/MacEverything-arm64.dmg"
-  end
+  version "1.7.30"
+  sha256 arm:   "e39fd6c3cd0345504e53e0f028cd978a2313c13ed3b98dc309c446e634edb498",
+         intel: "9011e1e71f7ca5cee1f12ffcd1f8d7debcdbda710f7fc00e836677643b6327b5"
 
-  on_intel do
-    sha256 "5a99ea7a7e236db57fa3cf4924d0c916f76c4de1b482c8e188abf4a0aefbfcf4"
-    url "https://github.com/ying-zhang/MacEverything/releases/download/v#{version}/MacEverything-x86_64.dmg"
-  end
-
+  url "https://github.com/ying-zhang/MacEverything/releases/download/v#{version}/MacEverything-#{arch}.dmg"
   name "MacEverything"
-  desc "Fast filename and content search for macOS"
+  desc "Fast filename and content search"
   homepage "https://github.com/ying-zhang/MacEverything"
+
+  depends_on macos: :sequoia
 
   app "MacEverything.app"
 

@@ -1,9 +1,9 @@
 cask "maceverything" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.7.50"
-  sha256 arm:   "bd7f17bbe1be4949ff723ce4d61059cccce7ef15f86f31a9b4519cd20ccf1a78",
-         intel: "ace40d119dccfed4785639ebb9074df50fdcc7a83eea7f838fe901f91162d5f8"
+  version "1.9.27"
+  sha256 arm:   "b0d525407c25aa375b76852a4db19d608e00dd784410ed6d775aaff9cf0059c6",
+         intel: "52b571b44ce6b2821f925f261120e3c5badd4f60b1f0606b34fa653e6547b01a"
 
   url "https://github.com/ying-zhang/MacEverything/releases/download/v#{version}/MacEverything-#{arch}.dmg"
   name "MacEverything"

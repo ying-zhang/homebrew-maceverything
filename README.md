@@ -2,6 +2,10 @@
 
 [MacEverything](https://github.com/ying-zhang/MacEverything) is a fast filename and content search application for macOS. This tap distributes its Apple Silicon and Intel DMG builds as a Homebrew Cask.
 
+Current release: **1.11.15** · [Project website](https://ying-zhang.cn/MacEverything/) · [Release notes](https://github.com/ying-zhang/MacEverything/releases/tag/v1.11.15)
+
+Requires macOS 15 or later. Installs the app and the `mace` command-line client.
+
 ## English
 
 ### Install
